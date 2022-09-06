@@ -15,7 +15,7 @@ function Profile({ username, tag, location, avatar, stats }) {
       <ul className={s.stats}>
         <li className={s.statsItem}>
           <span className={s.label}>Followers</span>
-          <span classNames={s.quantity}>{stats.followers}</span>
+          <span className={s.quantity}>{stats.followers}</span>
         </li>
         <li className={s.statsItem}>
           <span className={s.label}>Views</span>
