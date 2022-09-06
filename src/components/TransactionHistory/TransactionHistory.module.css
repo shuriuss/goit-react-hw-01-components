@@ -1,9 +1,30 @@
 .transactionHistory {
-color: red
+    font-size: 20px;
+    margin: 0 auto;
+    width: 700px;
+	margin-bottom: 20px;
+	border: 1px solid #000000;
+	border-collapse: collapse;
 }
 
 .tableHeader {
-    color: black;
-    font-size: 20px;
-    font-weight: 700;
+    font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #000000;
+}
+
+
+.stringTable{
+    padding: 5px 10px;
+	border: 1px solid #000000;
+	text-align: center;
+}
+
+
+.transactionHistory tbody tr:nth-child(odd){
+	background: #fff;
+}
+.transactionHistory tbody tr:nth-child(even){
+	background: #F7F7F7;
 }
