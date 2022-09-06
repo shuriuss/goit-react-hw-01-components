@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import s from './Statistics.module.css';
+import generateColor from './generateColor'
 
 function Statistics({ title, stats }) {
   return (
@@ -8,9 +9,9 @@ function Statistics({ title, stats }) {
 
       <ul className={s.statList}>
         {stats.map(item => (
-          <li key={item.id} className={s.item}>
+          <li key={item.id} className={s.item} style={{backgroundColor: generateColor()}}>
             <span className={s.label}>{item.label}</span>
-            <span className={s.percentage}>{item.percentage}</span>
+            <span className={s.percentage}>{item.percentage}%</span>
           </li>
         ))}
       </ul>
