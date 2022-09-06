@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import data from '../../data/data.json';
+// import data from '../../data/data.json';
 import s from './Statistics.module.css'
 
 function Statistics({ title, stats }) {

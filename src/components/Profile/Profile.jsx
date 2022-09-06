@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import user from '../../data/user.json';
+// import user from '../../data/user.json';
 import s from './Profile.module.css'
 
 function Profile({ username, tag, location, avatar, stats }) {

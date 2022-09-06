@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import friends from '../../data/friends.json'
+// import friends from '../../data/friends.json'
 import s from './FriendListItem.module.css'
 
 
